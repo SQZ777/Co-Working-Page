@@ -1,0 +1,25 @@
+@charset "UTF-8";
+body {
+  font-family: '微軟正黑體','Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #F8FFF4;
+  margin: 0;
+  color: #474350;
+  font-size: 30px;
+  max-width: 1900px; }
+
+#title .container {
+  width: 100%;
+  display: block;
+  background-color: #212121;
+  color: #3eccb5; }
+  #title .container ul {
+    padding: 10px;
+    margin: 0; }
+    #title .container ul li {
+      display: inline; }
+    #title .container ul a {
+      font-weight: bold;
+      color: white; }
+    #title .container ul a:visited {
+      font-weight: bold;
+      color: white; }

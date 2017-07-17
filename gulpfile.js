@@ -27,6 +27,7 @@ gulp.task('ConcatAndUglify', function () {
 //將src內的所有scss輸出至build目錄下
 gulp.task('sassGO', function () {
     return watch('src/**/*.scss', function () {     //監看src目錄底下的所有scss檔
+        console.log('CSS更新了')
         gulp.src('src/**/*.scss')                //設定來源檔案為src目錄底下的所有scss檔
             .pipe(sass().on('error', sass.logError))
             .pipe(gulp.dest('./build/'))             //輸出至build目錄底下
