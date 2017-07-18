@@ -1,29 +1,39 @@
 @charset "UTF-8";
 body {
-  font-family: '微軟正黑體','Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-family: 'Times New Roman','微軟正黑體', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   background-color: #F8FFF4;
-  background-image: url("/src/KinectSnapshot-02-53-18.png");
   margin: 0;
   color: #474350;
   font-size: 30px;
   max-width: 1900px; }
 
 #title {
-  background-color: #212121; }
-  #title .container {
-    width: 100%;
-    height: 20%;
-    display: block;
-    border: 1px solid red;
-    color: #3eccb5; }
-    #title .container ul {
-      padding: 10px;
-      margin: 0; }
-      #title .container ul li {
-        display: inline; }
-      #title .container ul a {
-        font-weight: bold;
-        color: white; }
-      #title .container ul a:visited {
-        font-weight: bold;
-        color: white; }
+  width: 100%;
+  background-color: #212121;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
+  height: 65px; }
+  #title .titleList {
+    width: 1000px;
+    margin: 0 auto; }
+    #title .titleList .Subtitles {
+      display: inline;
+      color: white;
+      font-size: 0.5em;
+      margin-left: 25px; }
+      #title .titleList .Subtitles a {
+        font-family: 'Segoe UI';
+        color: white;
+        text-decoration: none;
+        transition: .5s; }
+      #title .titleList .Subtitles a:hover {
+        color: #3eccb5; }
+    #title .titleList .SubText {
+      display: inline-block;
+      margin-right: 270px;
+      color: white; }
+      #title .titleList .SubText a {
+        color: white;
+        text-decoration: none; }
