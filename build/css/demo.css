@@ -12,6 +12,7 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
+  position: fixed;
   margin: 0 auto;
   height: 65px; }
   #title .titleList {
@@ -71,4 +72,7 @@ body {
         padding: .5em 1em .5em 1em;
         background-color: aquamarine;
         color: white;
-        text-decoration: none; }
+        text-decoration: none;
+        transition: .5s; }
+        #banner .container .bookBtn a:hover {
+          background-color: rgba(0, 0, 0, 0.5); }
