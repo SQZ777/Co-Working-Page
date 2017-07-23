@@ -4,8 +4,7 @@ body {
   background-color: #F8FFF4;
   margin: 0;
   color: #474350;
-  font-size: 30px;
-  max-width: 1900px; }
+  font-size: 30px; }
 
 #title {
   width: 100%;
@@ -54,7 +53,22 @@ body {
     align-items: center;
     justify-content: center; }
     #banner .container .coworktxt {
+      letter-spacing: .1em;
+      font-size: 5em; }
+    #banner .container .subtxt {
+      font-size: .8em;
+      font-family: "微軟正黑體";
+      letter-spacing: .5em;
+      display: flex;
+      justify-content: center; }
+    #banner .container .bookBtn {
+      font-family: "微軟正黑體";
       display: flex;
       justify-content: center;
-      width: 1000px;
-      font-size: 4em; }
+      font-size: .8em; }
+      #banner .container .bookBtn a {
+        margin-top: 1em;
+        padding: .5em 1em .5em 1em;
+        background-color: aquamarine;
+        color: white;
+        text-decoration: none; }
