@@ -22,7 +22,7 @@ body {
       display: inline;
       color: white;
       font-size: 0.5em;
-      margin-left: 25px; }
+      margin-left: 2em; }
       #title .titleList .Subtitles a {
         font-family: 'Segoe UI';
         color: white;
@@ -32,7 +32,7 @@ body {
         color: #3eccb5; }
     #title .titleList .SubText {
       display: inline-block;
-      margin-right: 270px;
+      margin-right: 10em;
       color: white; }
       #title .titleList .SubText a {
         color: white;
@@ -75,4 +75,37 @@ body {
         text-decoration: none;
         transition: .5s; }
         #banner .container .bookBtn a:hover {
-          background-color: rgba(0, 0, 0, 0.5); }
+          filter: brightness(0.8); }
+
+#aboutus {
+  height: 800px;
+  background-size: cover;
+  background-image: url("../img/aboutUsBackgroundImg.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  filter: brightness(1.2);
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+  #aboutus .container {
+    width: 30%;
+    background-color: white;
+    padding: 5% 0; }
+    #aboutus .container .aboutustxt {
+      color: black;
+      height: 100%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column; }
+      #aboutus .container .aboutustxt .txttitle {
+        display: flex;
+        font-size: 1.8em; }
+      #aboutus .container .aboutustxt .parameter .txtp {
+        text-align: center;
+        color: #474350;
+        letter-spacing: 1px;
+        width: 80%;
+        margin: 5% auto;
+        font-family: "微軟正黑體";
+        font-size: .5em; }

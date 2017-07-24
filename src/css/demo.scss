@@ -24,7 +24,7 @@ body {
             display: inline;
             color: white;
             font-size: 0.5em;
-            margin-left: 25px;
+            margin-left: 2em;
             a {
                 font-family: 'Segoe UI';
                 color: white;
@@ -37,7 +37,7 @@ body {
         }
         .SubText {
             display: inline-block;
-            margin-right: 270px;
+            margin-right: 10em;
             color: white;
             a {
                 color: white;
@@ -54,7 +54,6 @@ body {
     background-image: url("../img/backgroudimg1.jpg");
     background-repeat: no-repeat;
     background-attachment: fixed;
-    
     .container{
         background: rgba(0,0,0,.5);
         width:100%;
@@ -88,11 +87,54 @@ body {
                 text-decoration: none;
                 transition: .5s;
                 &:hover{
-                    background-color: rgba(0,0,0,.5);
+                    filter:brightness(0.8);
                 }
             }
-            
         }
+    }
 }
+
+#aboutus{
+    height: 800px;
+    background-size: cover;
+    background-image: url("../img/aboutUsBackgroundImg.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    
+        filter: brightness(1.2);
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    .container{
+        
+        width:30%;
+        background-color: white;
+        padding:5% 0;
+        .aboutustxt{
+            color: black;
+            height: 100%;
+            display:flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            .txttitle{
+                display:flex;
+                font-size: 1.8em;
+            }
+            .parameter{
+                .txtp{
+                    text-align: center;
+                    color:#474350;
+                    letter-spacing: 1px;
+                    width: 80%;
+                    margin:5% auto;
+                    font-family: "微軟正黑體";
+                    font-size: .5em;
+                }
+            }
+        
+        }
+    }
+    
 
 }
