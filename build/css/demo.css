@@ -140,5 +140,6 @@ body {
   height: 350px;
   width: 120%; }
   #playpic img {
+    cursor: pointer;
     height: 350px;
     width: 470px; }
