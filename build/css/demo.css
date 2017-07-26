@@ -135,3 +135,6 @@ body {
       font-family: "微軟正黑體";
       font-size: .45em;
       letter-spacing: .1em; }
+
+#playpic {
+  height: 350px; }
