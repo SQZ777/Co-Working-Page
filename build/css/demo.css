@@ -1,6 +1,6 @@
 @charset "UTF-8";
 body {
-  font-family: 'Times New Roman','微軟正黑體', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-family: 'Times New Roman', '微軟正黑體', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   background-color: #F8FFF4;
   margin: 0;
   color: #474350;
@@ -109,3 +109,28 @@ body {
         margin: 5% auto;
         font-family: "微軟正黑體";
         font-size: .5em; }
+
+#ourcommunity {
+  height: 350px;
+  width: 100%;
+  display: flex;
+  margin: 0 auto; }
+  #ourcommunity .container {
+    max-width: 50%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center; }
+    #ourcommunity .container .title {
+      margin: 0 auto;
+      letter-spacing: .1em;
+      font-size: 1.5em;
+      font-weight: bold;
+      color: black; }
+    #ourcommunity .container .subtitle {
+      width: 70%;
+      margin: 2em auto;
+      font-family: "微軟正黑體";
+      font-size: .45em;
+      letter-spacing: .1em; }

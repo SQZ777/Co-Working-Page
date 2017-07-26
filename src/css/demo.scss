@@ -1,7 +1,7 @@
 $bg:#212121;
 $normalObjectColor:#3eccb5;
 body {
-    font-family: 'Times New Roman','微軟正黑體', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: 'Times New Roman', '微軟正黑體', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     background-color: #F8FFF4;
     margin: 0;
     color: #474350;
@@ -47,94 +47,119 @@ body {
     }
 }
 
-#banner{
-    width:100%;
-    height:1000px;
+#banner {
+    width: 100%;
+    height: 1000px;
     background-size: cover;
     background-image: url("../img/backgroudimg1.jpg");
     background-repeat: no-repeat;
     background-attachment: fixed;
-    .container{
-        background: rgba(0,0,0,.5);
-        width:100%;
-        height:100%;
-        color:white;
-        display:flex;
+    .container {
+        background: rgba(0, 0, 0, .5);
+        width: 100%;
+        height: 100%;
+        color: white;
+        display: flex;
         align-items: center;
         justify-content: center;
-         .coworktxt{
+        .coworktxt {
             letter-spacing: .1em;
             font-size: 5em;
         }
-        .subtxt{
-            font-size:.8em;
+        .subtxt {
+            font-size: .8em;
             font-family: "微軟正黑體";
             letter-spacing: .5em;
-            display:flex;
+            display: flex;
             justify-content: center;
-            }
-        .bookBtn{
+        }
+        .bookBtn {
             font-family: "微軟正黑體";
-            display:flex;
+            display: flex;
             justify-content: center;
-            
-            font-size:.8em;
-            a{
-                margin-top:1em;
-                padding:.5em 1em .5em 1em;
+            font-size: .8em;
+            a {
+                margin-top: 1em;
+                padding: .5em 1em .5em 1em;
                 background-color: aquamarine;
-                color:white;
+                color: white;
                 text-decoration: none;
                 transition: .5s;
-                &:hover{
-                    filter:brightness(0.8);
+                &:hover {
+                    filter: brightness(0.8);
                 }
             }
         }
     }
 }
 
-#aboutus{
+#aboutus {
     height: 800px;
     background-size: cover;
     background-image: url("../img/aboutUsBackgroundImg.jpg");
     background-repeat: no-repeat;
     background-attachment: fixed;
-    
-        filter: brightness(1.2);
-    display:flex;
+    filter: brightness(1.2);
+    display: flex;
     justify-content: center;
     align-items: center;
-    .container{
-        
-        width:30%;
+    .container {
+        width: 30%;
         background-color: white;
-        padding:5% 0;
-        .aboutustxt{
+        padding: 5% 0;
+        .aboutustxt {
             color: black;
             height: 100%;
-            display:flex;
+            display: flex;
             justify-content: center;
             align-items: center;
             flex-direction: column;
-            .txttitle{
-                display:flex;
+            .txttitle {
+                display: flex;
                 font-size: 1.8em;
             }
-            .parameter{
-                .txtp{
+            .parameter {
+                .txtp {
                     text-align: center;
-                    color:#474350;
+                    color: #474350;
                     letter-spacing: 1px;
                     width: 80%;
-                    margin:5% auto;
+                    margin: 5% auto;
                     font-family: "微軟正黑體";
                     font-size: .5em;
                 }
             }
-        
         }
     }
-    
-
 }
+
+#ourcommunity {
+    height: 350px;
+    width: 100%;
+    display: flex;
+    margin: 0 auto;
+    .container {
+        max-width:50%;
+        margin:0 auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+        .title {
+            margin:0 auto;
+            letter-spacing: .1em;
+            font-size: 1.5em;
+            font-weight: bold;
+            color: black;
+        }
+        .subtitle {
+            width: 70%;
+            margin:2em auto;
+            font-family: "微軟正黑體";
+            font-size: .45em;
+            letter-spacing: .1em;
+        }
+    }
+}
+
+#playpic {}
