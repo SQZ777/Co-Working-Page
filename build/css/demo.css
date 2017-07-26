@@ -137,4 +137,8 @@ body {
       letter-spacing: .1em; }
 
 #playpic {
-  height: 350px; }
+  height: 350px;
+  width: 120%; }
+  #playpic img {
+    height: 350px;
+    width: 470px; }
