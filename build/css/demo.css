@@ -142,4 +142,8 @@ body {
   #playpic img {
     cursor: pointer;
     height: 350px;
-    width: 470px; }
+    width: 470px;
+    transition: .5s;
+    filter: contrast(50%); }
+  #playpic img:hover {
+    filter: none; }
