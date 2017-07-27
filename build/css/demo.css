@@ -151,3 +151,9 @@ body {
     filter: contrast(50%); }
   #playpic img:hover {
     filter: none; }
+
+.test {
+  width: 100px;
+  height: 100px;
+  background-color: black;
+  float: left; }

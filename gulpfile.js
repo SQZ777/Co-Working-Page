@@ -16,13 +16,20 @@ gulp.task('serverGO', function () {
 //將src內的所有js打包成all.js並將all.js輸出至build/js的目錄下
 gulp.task('ConcatAndUglify', function () {
     return watch('src/**/*.js', function () {   //監看src目錄底下的所有js檔
-        gulp.src('src/**/*.js')                 //設定來源檔案為src目錄底下的所有js檔
+        gulp.src('src/js/*.js')                 //設定來源檔案為src目錄底下的所有js檔
             .pipe(concat('all.js'))
             .pipe(uglify())
             .pipe(gulp.dest('./build/js'))      //輸出至build目錄底下
             .pipe(connect.reload());            //利用connect套件刷新頁面
     });
 });
+
+gulp.task('vendor',function(){
+    return gulp.src('src/bower_components/jquery/dist/jquery.min.js')
+    .pipe(concat('vendor.js'))
+    .pipe(gulp.dest('./build/js'));
+});
+
 
 //將src內的所有scss輸出至build目錄下
 gulp.task('sassGO', function () {
@@ -48,5 +55,5 @@ gulp.task('htmlGO', function () {
 //     gulp.watch('src/**/*.js', ['ConcatAndUglify']);
 //     gulp.watch('build/**/*.html', ['htmlGO']);
 // });
-gulp.task('default', ['ConcatAndUglify', 'sassGO', 'serverGO', 'htmlGO']);
+gulp.task('default', ['ConcatAndUglify','vendor', 'sassGO', 'serverGO', 'htmlGO']);
 // gulp.task('default', ['ConcatAndUglify', 'sassGO', 'serverGO', 'watch']);

@@ -1,1 +1,1 @@
-$(document).ready(function(){console.log("PrintA")}),$(document).ready(function(){console.log("PrintB")});
+$(document).ready(function(){function t(){setTimeout(i(),500)}function i(){$("img").toggle(),setTimeout(t(),500)}$("img").click(function(){t()})});
